@@ -211,7 +211,7 @@
 }
 .skill-container{
   display: flex;
-  gap: 24px;
+  gap: 22px;
   justify-content: center;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
@@ -226,7 +226,7 @@
 }
 /* Next target finish */
 
-/* support section styles start from here */
+/* support section */
 .support-section{
   background-image: url("../assets/hand.jpg");
   background-size: cover;
@@ -273,7 +273,7 @@
 }
 /* support section finished */
 
-/* footer starts */
+/* footer */
 .footer-container{
   display: flex;
   margin-bottom: 32px;
@@ -285,15 +285,15 @@
   color:rgba(0, 106, 255, 1);
   font-size: 24px;
 }
+.fa-linkedin{
+  color: rgba(36, 137, 190, 1);
+  font-size: 24px;
+}
 
 .fa-github{
   color: rgba(22, 22, 20, 1);
   font-size: 24px;
 }
 
-.fa-linkedin{
-  color: rgba(36, 137, 190, 1);
-  font-size: 24px;
-}
 
-/* footer finished */
+/* footer close */
