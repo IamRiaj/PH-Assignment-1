@@ -1,0 +1,299 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* shared starts */
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+.text-primary{
+    color: #0D1321;
+}
+.btn-learn-more{
+    padding: 12px 20px;
+}
+.btn-learn-more>a{
+    text-decoration: none;
+    color: #0D1321;
+    opacity: 70%;  
+}
+.description{
+  color:#0D1321;
+  margin-bottom: 24px;
+  opacity: 70%;
+}
+
+.title{
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+/* shared finished */
+
+/* nav style starts */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nav-title{
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.nav-btn{
+  font-weight: 600;
+  font-size: 20px;
+  padding: 17px 24px;
+  opacity: 80%;
+  border: 1px solid #0D1321;
+  border-radius: 8px;
+}
+
+.nav-btn>a{
+  text-decoration: none;
+}
+
+
+/* coder section starts */
+.coder{
+  margin-top: 50px;
+  background-image: url("../assets/Hero-bg.png");
+  background-size: cover;
+}
+.coder-description{
+  margin-bottom: 53px;
+}
+.coder-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 45px;
+  padding-top: 26px;
+}
+
+.coder-title{
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 32px;
+  margin-bottom: 24px;
+
+}
+
+.btn-contact{
+  color: #FFFFFF;
+  background-color:#0D1321;
+  border-radius: 8px;
+  padding: 21px 24px;
+  font-size: 20px;
+  font-weight: 600px;
+  text-decoration: none;
+}
+
+/* coder section ends */
+
+/* Why web development starts */
+.container{
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.web-description{
+  margin-top: 24px;
+}
+.web-container{
+  text-align: center;
+  margin-top: 154px;
+}
+
+
+.web-container-1{
+  display: flex;
+  margin-top: 96px;
+  justify-content: center;
+  gap: 98px;
+}
+
+.web-description-1{
+  opacity: 70%;
+  margin-bottom: 32px;
+}
+.web-title-1{
+  font-weight: 700;
+  font-size: 24px;
+  opacity: 70%;
+  margin-bottom: 16px;
+}
+
+
+/* Inspiration starts */
+
+.inspiration{
+  text-align: center;
+  margin-top: 170px;
+}
+.inspiration-title{
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.inspiration-description{
+  opacity: 70%;
+  margin-bottom: 48px;
+}
+.inspiration-video{
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.inspiration-video>iframe{
+  border-radius: 16px;
+
+}
+/* Inspiration ends */
+
+
+/* Current target starts */
+.target-container{
+  text-align: center;
+}
+.current-skill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.skill{
+  padding:40px;
+}
+.skill-title{
+  font-weight: 800;
+  font-size: 24px;
+  padding: 24px 0 8px 0;
+}
+#skill-html{
+  background-color:rgba(255, 76, 30, 0.05);
+ 
+}
+#skill-css{
+  background-color: rgba(0, 76, 232, 0.05);
+}
+#skill-js{
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.btn-skill{
+  font-weight: 700;
+  border: none;
+}
+/* Current target finish */
+
+/* Next target starts */
+.next-container{
+  text-align: center;
+  margin-top: 111px;
+}
+.next-title{
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.skill-container{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  padding: 40px 20px;
+  margin-bottom: 24px;
+
+}
+.next-skills-title{
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+/* Next target finish */
+
+/* support section styles start from here */
+.support-section{
+  background-image: url("../assets/hand.jpg");
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.support-container{
+  text-align: center;
+  padding: 64px 48px;
+}
+
+.support-title{
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #FFFFFF; 
+}
+
+.support-description{
+  color: #FFFFFF;
+  opacity: 70%;
+  margin-bottom: 24px;
+}
+
+.support-input{
+  padding: 19px 215px 19px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-submit{
+  font-weight: 600;
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+/* support section finished */
+
+/* footer starts */
+.footer-container{
+  display: flex;
+  margin-bottom: 32px;
+  margin-top: 112px;
+  justify-content: space-between;
+}
+
+.fa-facebook{
+  color:rgba(0, 106, 255, 1);
+  font-size: 24px;
+}
+
+.fa-github{
+  color: rgba(22, 22, 20, 1);
+  font-size: 24px;
+}
+
+.fa-linkedin{
+  color: rgba(36, 137, 190, 1);
+  font-size: 24px;
+}
+
+/* footer finished */
